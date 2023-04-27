@@ -16,6 +16,6 @@ def write_todos(new_todos, filepath=FILEPATH):
         todoFile.writelines(new_todos)
 
 
-if "__name__" == "__main__":
+if __name__ == "__main__":
     print(get_todos())
 
